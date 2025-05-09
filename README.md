@@ -1,54 +1,81 @@
-# React + TypeScript + Vite
+# 🏡 Real Estate Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-Currently, two official plugins are available:
+> A modern, responsive real estate portfolio single-page website built with **React**, **Tailwind CSS**, and **Vite**. This website features key sections including **About**, **Achievements**, **Property Listings**, **Services**, **Client Testimonials**, and **Contact**, all optimized for both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🌐 **Fully Responsive** design optimized for all screen sizes.
+- 🏡 **Property Listings** showcasing properties with images and descriptions.
+- 📑 **Client Testimonials** to build trust with potential clients.
+- 💼 **Services Section** to display real estate services offered.
+- 🏆 **Achievements** section to highlight successes and milestones.
+- 📞 **Contact Form** for inquiries and client interactions.
+- ⚡ Fast and optimized with **Vite** for blazing fast loading times.
+- 🎨 Designed using **Tailwind CSS** for a beautiful and clean UI.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🧱 Tech Stack
+
+| Category       | Tech            |
+|----------------|-----------------|
+| Framework      | [React](https://reactjs.org) |
+| Language       | [TypeScript](https://www.typescriptlang.org) |
+| Styling        | [Tailwind CSS](https://tailwindcss.com) |
+| Routing        | [React Router](https://reactrouter.com) |
+| Animation      | [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) |
+| Build Tool     | [Vite](https://vitejs.dev) |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+https://github.com/CODESUJON/Realestate-Portfolio-React
+cd realstate-portfolio
+
+```bash
+npm run dev
 ```
+## 🖼️ Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🌓 Home 
+![Home](./ss/Home.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+### 🧾 Sections
+
+#### ℹ️ About
+![About](./ss/About.png)
+
+#### 🎯 Achievements
+![Achievement](./ss/achievement.png)
+
+#### 💰 Properties
+![Properties](./ss/Properties.png)
+
+#### 🛠️ Services
+![Services](./ss/Service.png)
+
+#### 🛠️ Testimonials
+![Testimonials](./ss/Testimonials.png)
+
+#### 💰 Contact
+![Contact](./ss/Contact.png)
+
+#### 🔚 Footer
+![Footer](./ss/Footer.png)
+
+
+
